@@ -1,0 +1,37 @@
+/* assets/css/style.css */
+
+/* Gaya untuk layar kecil */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Gaya untuk layar sedang */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Gaya untuk layar besar */
+@media (min-width: 1025px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Gambar responsif */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tambahan gaya untuk elemen lain */
+h1 {
+    font-size: 2rem; /* Ukuran font h1 */
+}
+
+.container {
+    padding: 20px; /* Padding pada container */
+}
